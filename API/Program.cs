@@ -31,10 +31,9 @@ namespace API
                 logger.LogError(ex, "An error occured during migraiton");
             }
 
-            await host.RunAsync();
-            
+            await host.RunAsync();    
         }
-
+        
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
