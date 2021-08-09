@@ -1,6 +1,5 @@
 import { observer } from 'mobx-react-lite';
-import React from 'react';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Grid, GridColumn } from "semantic-ui-react";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
