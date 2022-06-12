@@ -1,4 +1,4 @@
-## Social network. Full-stack app with .NET and React.
+## Learning project "Social network". Full-stack app with .NET and React.
 1. Web API in .Net Core with Clean Architecture using the CQRS, Mediator pattern.
 2. Client side application with React.
 
